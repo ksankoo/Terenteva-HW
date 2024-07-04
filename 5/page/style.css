@@ -1,0 +1,95 @@
+header {
+  height: 10vh;
+  background-color: rgb(224, 224, 224);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-aside-container {
+  height: 70vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  display: flex;
+}
+
+main {
+  width: 66vw;
+  background-color: rgb(255, 248, 227);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-part {
+  text-align: center;
+  padding: 3vh;
+}
+
+.else {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.else-one-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-else-one-two {
+  background-color: rgb(254, 234, 185);
+  width: 28vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 3vw; */
+}
+
+.main-else-three {
+  background-color: rgb(254, 234, 185);
+  width: 60vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 3vw; */
+}
+
+aside {
+  width: 34vw;
+  padding: 3vh;
+  background-color: rgb(221, 236, 203);
+
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  height: 20vh;
+  background-color: rgb(224, 224, 224);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-section {
+  height: 15vh;
+  width: 23vw;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
