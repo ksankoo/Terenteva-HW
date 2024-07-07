@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/gothampro.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+header {
+  font-family: Gotham Pro;
+  display: grid;
+  grid-template-columns: 4vw 11.5vw 1fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 2vw;
+  margin: 2vw;
+}
+
+.logo {
+  grid-area: 1/1/3/2;
+}
+
+.catalog {
+  grid-area: 2/2/3/3;
+}
+
+.img-catalog {
+  width: 11.5vw;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.search {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.opportunity {
+  background-image: url('../images/background.png');
+  margin: 2vw;
+  height: 28.3vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+  justify-items: center;
+}
+
+.ads {
+  margin: 2vw;
+  display: grid;
+  grid-template-columns: 24vw 1fr;
+  justify-content: space-around;
+}
