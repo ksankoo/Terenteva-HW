@@ -1,0 +1,40 @@
+.wrapper {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 300px);
+  gap: 5px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.one {
+  background-color: lightgreen;
+}
+
+.two {
+  background-color: yellow;
+}
+
+.three {
+  background-color: lightblue;
+}
+
+.four {
+  background-color: lightpink;
+}
+
+.five {
+  background-color: rgb(187, 225, 238);
+}
+
+.six {
+  background-color: lightcoral;
+}
