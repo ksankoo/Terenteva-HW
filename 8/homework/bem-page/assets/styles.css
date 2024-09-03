@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Intro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Intro"),
+        url("/homework/bem-page/assets/intro.woff2") format("woff2"),
+        url("/homework/bem-page/assets/intro.woff") format("woff");
+    }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5.2vw;
+}
+
+.header__logo {
+    width: 200px;
+}
+
+.header__button {
+    display: flex;
+    padding: 15px;
+
+    background-color: #5222D0;
+    color: white;
+    border-radius: 100px;
+    border: none;
+
+    font-family: Intro;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header__button_cart-icon {
+    padding-left: 5px;
+}
+
+.no-wires {
+    display: flex;
+}
+
+.no-wires__card {
+    margin-left: 8.8vw;
+}
+
+.no-wires__card_title {
+    font-family: "Intro";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.no-wires__card_text {
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.no-wires__button {
+    display: flex;
+    padding: 30px;
+
+    background-color: #5222D0;
+    color: white;
+    border-radius: 100px;
+    border: none;
+
+    font-family: Intro;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+}
+
+.no-wires__button_card-icon {
+    padding-left: 12px;
+}
+
+.no-wires__picture {
+    width: 42vw;
+}
+
+.navigation {
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.features {
+    margin-top: 100px;
+    margin-left: 8.8vw;
+    margin-right: 5vw;
+}
+
+.features__title {
+    margin-bottom: 40px;
+
+    font-family: Intro ;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.features__card {
+    border: none;
+}
+
+.features__card_title {
+    font-family: Intro ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.features__card_text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.features__card-news {
+    color: white;
+    background-color: #EC615B;
+}
+
+.features__card-news_email {
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 0px;
+    border: none;
+
+    color: black;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.features__card-news_email::-webkit-input-placeholder {
+    color: black;
+    } 
+.features__card-news_email::-moz-placeholder {
+    color: black;
+    }
