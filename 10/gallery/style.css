@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#buttons {
+  display: flex;
+}
+
+.image {
+  width: 30vw;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  border: none;
+  width: 100px;
+  margin: 10px;
+}

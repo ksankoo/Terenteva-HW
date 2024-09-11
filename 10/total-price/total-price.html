@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./mucha.jpg" alt="painting" >
+    <button onclick="alert(`Стоимость покупки: ${calculateTotalPrice()}$`)">
+      Посчитать
+    </button>
+    <script>
+      function calculateTotalPrice(quantity = 4, price = 1500000) {
+        let totalPrice = quantity * price;
+        return totalPrice.toLocaleString();
+      }
+    </script>
+  </body>
+</html>
