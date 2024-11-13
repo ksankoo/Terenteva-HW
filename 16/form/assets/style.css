@@ -1,0 +1,71 @@
+body {
+	background-color: rgb(130, 90, 224);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 18px;
+}
+
+#myForm {
+	margin-left: 30vw;
+	padding: 30px 0 30px 0;
+	width: 40vw;
+	border: 1px solid white;
+	border-radius: 50px;
+	background-color: rgb(111, 76, 194);
+}
+
+input::-webkit-input-placeholder {
+	color: white;
+} 
+input::-moz-placeholder {
+	color: white;
+}
+
+input {
+	background-color: rgb(130, 90, 224);
+	margin: 20px 0 20px 0;
+	padding: 7px 0 7px 0;
+	border-radius: 10px;
+	border: 3px solid rgb(73, 47, 133);
+	text-align: center;
+}
+
+.inputContainer {
+	margin: 20px;
+}
+
+.sexInputContainer {
+	margin:10px 0 10px 0;
+}
+
+#selectOccupationLabel {
+	margin: 0px;
+}
+
+select {
+	width: 220px;
+	padding: 7px 0 7px 7px;
+	border-radius: 10px;
+	background-color: rgb(130, 90, 224);
+	border: 3px solid rgb(73, 47, 133);
+	text-align: center;
+}
+
+#checkboxContainer {
+	margin: 0 0 20px 0;
+}
+
+button {
+	padding: 15px;
+	border: 3px solid rgb(73, 47, 133);
+	background-color: rgb(130, 90, 224);
+	border-radius: 10px;
+}
+
+.error {
+	border: 3px solid rgb(236, 116, 116);
+}
+
+span {
+	color: rgb(236, 116, 116);
+}

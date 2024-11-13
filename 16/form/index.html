@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/hw/assets/style.css">
+    <link rel="stylesheet" href="/hw/assets/normalize.css">
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form id="myForm" name="myForm" novalidate>
+        <div id="nameInputContainer" class="inputContainer">
+            <input type="text" id="nameInput" name="nameInput" placeholder="Ваше имя" minlength="2" maxlength="22" required> <br>
+            <span class="error-message" id="name-error"></span><br>
+        </div>
+        <!-- pattern="/^(([a-zA-Z' -]{2,22})|([а-яА-ЯЁё' -]{2,22}))$/u" onBlur=""  -->
+        <!-- /^[А-Я][а-яё]*$/ -->
+        <div id="emailInputContainer" class="inputContainer">
+            <input type="email" id="emailInput" name="emailInput" placeholder="Ваш email" required><br>
+            <span class="error-message" id="email-error"></span><br>
+        </div>
+        
+        <div id="ageInputContainer" class="inputContainer">
+            <input type="number" id="ageInput" name="ageInput" placeholder="Ваш возраст" required><br>
+            <span class="error-message" id="age-error"></span><br>
+        </div>
+        
+        <div id="sexInputContainer" class="inputContainer">
+            <label for="sexInput">Выберите пол:</label><br>
+            <div class="sexInputContainer">
+                <input type="radio" id="sexInput1" name="sexInput" value="Женщина">
+                <label for="sexInput1">Женщина</label><br>
+            </div>
+            <div class="sexInputContainer">
+                <input type="radio" id="sexInput2" name="sexInput" value="Мужчина">
+                <label for="sexInput2">Мужчина</label><br>
+            </div>
+            <span class="error-message" id="sex-error"></span><br>
+        </div>
+
+        <div id="selectOccupationContainer" class="inputContainer">
+            <p for="selectOccupation" id="selectOccupationLabel">Выберите вашу профессию:</p><br>
+            <select name="selectOccupation" id="selectOccupation" placeholder="Профессия" required>
+                <option value="Врач">Врач</option>
+                <option value="Программист">Программист</option>
+                <option value="Учитель">Учитель</option>
+                <option value="Дизайнер">Дизайнер</option>
+                <option value="Инженер">Инженер</option>
+                <option value="Продавец">Продавец</option>
+                <option value="Другое">Другое</option>
+            </select> <br>
+            <span class="error-message" id="occupation-error"></span><br>
+        </div>
+        
+        <div id="inputPasswordContainer" class="inputContainer">
+            <input type="password" name="inputPassword" id="inputPassword" placeholder="Ваш пароль" minlength="8" required><br>
+            <span class="error-message" id="password-error"></span><br>
+        </div>
+        
+        <div id="repeatPasswordContainer" class="inputContainer">
+            <input type="password" name="repeatPassword" id="repeatPassword" placeholder="Повторите пароль" minlength="8" required><br>
+            <span class="error-message" id="password-repeat-error"></span><br>
+        </div>
+        
+        
+        <div id="checkboxContainer" class="inputContainer">
+            <input type="checkbox" id="checkbox" name="checkbox" class="form__checkbox" required/>
+	        <label for="checkbox" id="checkboxLabel">Я соглашаюсь на обработку моих персональных данных</label><br>
+            <span class="error-message" id="checkbox-error"></span><br>
+        </div>
+
+
+        <button type="submit">Отправить</button><br>
+        <span class="error-message" id="submit-error"></span>
+    </form>
+
+    <script src="/hw/index.js"></script>
+</body>
+</html>
